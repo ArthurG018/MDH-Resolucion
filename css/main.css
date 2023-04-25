@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9e9e9ed8;
+}
+.Login-Page{
+	width: 73%;
+    margin-top : 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+	overflow: hidden;
+}
+
+.Img{
+    width: 100%;
+    box-sizing: border-box;
+	z-index: 1;
+	background: #FFFFFF;
+	max-width: 900px;
+	margin: 0 auto 100px auto;
+	padding: 5px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+img {
+	height: 100%;
+}
+
+.slide{
+	background-image: url("../img/Muni-Hualmay.png");
+	background-size: 100% 100% 100% 100% 100% 100% 100% 100% 100% 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+    height: 100%;
+	border-radius: 10px;
+	animation: slide 40s infinite linear;
+
+}
+@keyframes slide {
+	10%{background-image: url("../img/Muni-Hualmay.png");}
+	20%{background-image: url("../img/imagen1.jpg");}
+	30%{background-image: url("../img/imagen2.jpg");}
+	40%{background-image: url("../img/imagen3.jpg");}
+
+	50%{background-image: url("../img/imagen4.jpg");}
+	60%{background-image: url("../img/imagen5.jpg");}
+	70%{background-image: url("../img/imagen6.jpg");}
+	80%{background-image: url("../img/imagen7.jpg");}
+	90%{background-image: url("../img/imagen8.jpg");}
+	100%{background-image: url("../img/Muni-Hualmay.png");}
+}
+
+
+
+.form{
+	width: 80%;
+    box-sizing: border-box;
+    position: relative;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+input[type="text"],
+input[type="password"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #2980b9;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a{
+    color: #0b2cbe;
+    text-decoration: none;
+}
+
+fieldset{
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    position: relative;
+	background: #FFFFFF;
+	max-width: 360px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}

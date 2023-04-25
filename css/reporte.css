@@ -1,0 +1,37 @@
+.contenedor-tabla {
+    background-color: white;
+    box-shadow: 5px 5px 20px black;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 908px;
+    padding: 15px;
+    width: 85%;
+}
+
+.tabla-reporte{
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 883px;
+    width: 85%;
+}
+
+th, td {
+    border-style: solid;
+    border-color: black;
+    padding: 15px;
+}
+
+th {
+    background-color: brown;
+    color: white;
+}
+
+td {
+    text-align: center;
+}
+
+.img-pdf {
+    height: 25px;
+    width: 25px;
+}

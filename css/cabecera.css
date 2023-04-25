@@ -1,0 +1,129 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+li, .enlace-cabecera, button {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+    background-color: firebrick;
+}
+
+.logo {
+    height: 70px;
+}
+
+.perfil-img {
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-width: 2px;
+}
+
+.perfil-img:hover {
+    border-width: 3px;
+    box-shadow: 0 0 20px goldenrod;
+    filter: brightness(70%);
+}
+
+.perfil-editar {
+    width: 60%;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.enlaces {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.contenedor-perfil {
+    display: flex;
+    align-items: center;
+}
+
+.enlaces li, .perfil, .perfil li {
+    display: block;
+    padding: 20px 20px;
+}
+
+.enlace-cabecera {
+    display: block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+.enlaces-sub li .enlace-cabecera, .perfil .enlace-cabecera, .perfil .enlaces-sub li .enlace-cabecera {
+    display: block;
+    color: white;
+}
+
+.enlaces li .enlace-cabecera:hover, .perfil .enlace-cabecera:hover, .enlaces-sub li .enlace-cabecera:hover {
+    color: goldenrod;
+}
+
+
+
+.enlaces-sub {
+    background-color: rgba(178, 34, 34, 0.75);
+    display: none;
+    list-style: none;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.enlaces li:hover .enlaces-sub, .perfil:hover .enlaces-sub {
+    display: block;
+}
+
+.contenedor-boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; 
+    width: 100%;
+}
+
+.Boton2 {
+    padding: 10px 20px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+    margin: auto;
+}
+
+.Boton2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.Boton2:hover {
+	background-color: #2980b9;
+}
+
+.contenedor-filtros {
+    display: flex;
+    align-items: center;
+    justify-content: left;  
+    margin: auto;  
+    width: 85%;
+    gap: 30px;    
+}

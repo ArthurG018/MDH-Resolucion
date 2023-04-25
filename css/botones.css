@@ -1,0 +1,16 @@
+.boton {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
